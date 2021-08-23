@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <title>Sandbox</title>
+  <link rel="stylesheet" href="css/plugins.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/colors/purple.css">
+  <link rel="preload" href="css/fonts/thicccboi.css" as="style" onload="this.rel='stylesheet'">
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <header class="wrapper bg-soft-primary">
+      <div class="alert bg-primary text-white alert-dismissible fade show rounded-0 mb-0 text-lg-center" role="alert">
+        <div class="container">
+          <div class="alert-inner">
+            <span class="badge bg-white text-primary text-uppercase rounded me-2">Update 1.1</span> Sandbox is now improved with <strong>gulp.js</strong>!
+          </div>
+          <!-- /.alert-inner -->
+        </div>
+        <!-- /.container -->
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <!-- /.alert -->
+      <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100"><a href="start.html"><img src="img/logo-purple.png" srcset="img/logo-purple@2x.png 2x" alt="" /></a></div>
+          <div class="navbar-collapse offcanvas-nav">
+            <div class="offcanvas-header d-lg-none d-xl-none">
+              <a href="start.html"><img src="img/logo-light.png" srcset="img/logo-light@2x.png 2x" alt="" /></a>
+              <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
+            </div>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#!">Demos</a>
+                <ul class="dropdown-menu mega-menu mega-menu-img">
+                  <li class="mega-menu-content">
+                    <ul class="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled">
+                      <li class="col"><a class="dropdown-item" href="index.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi1.jpg" srcset="img/demos/mi1@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo I</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index2.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi2.jpg" srcset="img/demos/mi2@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo II</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index3.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi3.jpg" srcset="img/demos/mi3@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo III</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index4.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi4.jpg" srcset="img/demos/mi4@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo IV</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index5.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi5.jpg" srcset="img/demos/mi5@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo V</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index6.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi6.jpg" srcset="img/demos/mi6@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo VI</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index7.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi7.jpg" srcset="img/demos/mi7@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo VII</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index8.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi8.jpg" srcset="img/demos/mi8@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo VIII</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index9.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi9.jpg" srcset="img/demos/mi9@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo IX</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index10.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi10.jpg" srcset="img/demos/mi10@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo X</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index11.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi11.jpg" srcset="img/demos/mi11@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo XI</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index12.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi12.jpg" srcset="img/demos/mi12@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo XII</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index13.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi13.jpg" srcset="img/demos/mi13@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo XIII</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index14.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi14.jpg" srcset="img/demos/mi14@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo XIV</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index15.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi15.jpg" srcset="img/demos/mi15@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo XV</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index16.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi16.jpg" srcset="img/demos/mi16@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo XVI</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index17.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi17.jpg" srcset="img/demos/mi17@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo XVII</span>
+                        </a></li>
+                      <li class="col"><a class="dropdown-item" href="index18.html">
+                          <figure class="rounded lift d-none d-lg-block"><img src="img/demos/mi18.jpg" srcset="img/demos/mi18@2x.jpg 2x" alt=""></figure>
+                          <span class="d-lg-none">Demo XVIII</span>
+                        </a></li>
+                    </ul>
+                    <!--/.row -->
+                  </li>
+                  <!--/.mega-menu-content-->
+                </ul>
+                <!--/.dropdown-menu -->
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Projects</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="dropdown-item" href="projects.html">Projects I</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="projects2.html">Projects II</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="projects3.html">Projects III</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="projects4.html">Projects IV</a></li>
+                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Single Projects</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item"><a class="dropdown-item" href="single-project.html">Single Project I</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="single-project2.html">Single Project II</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="single-project3.html">Single Project III</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Blocks</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="dropdown-item" href="blocks.html">About</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="blocks2.html">Blog</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="blocks3.html">Clients</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="blocks4.html">Contact</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="blocks5.html">Facts</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="blocks6.html">FAQ</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="blocks7.html">Portfolio</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="blocks8.html">Pricing</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="blocks9.html">Process</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="blocks10.html">Services</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="blocks11.html">Team</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="blocks12.html">Testimonials</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Pages</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Services</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item"><a class="dropdown-item" href="services.html">Services I</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="services2.html">Services II</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">About</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item"><a class="dropdown-item" href="about.html">About I</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="about2.html">About II</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Blog</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item"><a class="dropdown-item" href="blog.html">Blog without Sidebar</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="blog2.html">Blog with Sidebar</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="blog3.html">Blog with Left Sidebar</a></li>
+                      <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Blog Posts</a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item"><a class="dropdown-item" href="blog-post.html">Post without Sidebar</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="blog-post2.html">Post with Sidebar</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="blog-post3.html">Post with Left Sidebar</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Contact</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item"><a class="dropdown-item" href="contact.html">Contact I</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="contact2.html">Contact II</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="contact3.html">Contact III</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item"><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Features</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Header</a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Center Nav</a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item"><a class="dropdown-item" href="header.html">Transparent</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="header2.html">Light</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="header3.html">Dark</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="header4.html">Fancy</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Classic</a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item"><a class="dropdown-item" href="header5.html">Transparent</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="header6.html">Light</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="header7.html">Dark</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="header8.html">Fancy</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Center Logo</a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item"><a class="dropdown-item" href="header9.html">Transparent</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="header10.html">Light</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="header11.html">Dark</a></li>
+                          <li class="nav-item"><a class="dropdown-item" href="header12.html">Fancy</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item"><a class="dropdown-item" href="header13.html">Extended</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Footer</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item"><a class="dropdown-item" href="footer.html">Footer I</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="footer2.html">Footer II</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="footer3.html">Footer III</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="footer4.html">Footer IV</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="footer5.html">Footer V</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Page Title</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item"><a class="dropdown-item" href="page-title.html">Page Title I</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="page-title2.html">Page Title II</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="page-title3.html">Page Title III</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Modal Popup</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item"><a class="dropdown-item" href="modal-popup1.html">Modal Popup I</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="modal-popup2.html">Modal Popup II</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="modal-popup3.html">Modal Popup III</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item"><a class="dropdown-item" href="notification-bar.html">Notification Bar</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="colors.html">Colors</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="onepage.html">One Page</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a>
+                <ul class="dropdown-menu mega-menu">
+                  <li class="mega-menu-content">
+                    <div class="row gx-0 gx-lg-3">
+                      <div class="col-lg-6">
+                        <h6 class="dropdown-header">General Elements</h6>
+                        <div class="row gx-0">
+                          <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                              <li><a class="dropdown-item scroll" href="elements.html#buttons-badges">Buttons & Badges</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#counter">Counter</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#dividers">Dividers</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#form-elements">Form Elements</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#icon-box">Icon Box</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#image-hover">Image Hover</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#lightbox">Lightbox</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#modal">Modal</a></li>
+                            </ul>
+                          </div>
+                          <!--/column -->
+                          <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                              <li><a class="dropdown-item scroll" href="elements.html#pricing-table">Pricing Table</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#process">Process</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#progressbar">Progressbar</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#shadows">Shadows</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#tabs">Tabs</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#team">Team</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#testimonials">Testimonials</a></li>
+                              <li><a class="dropdown-item scroll" href="elements.html#toggle-accordion">Toggle & Accordion</a></li>
+                            </ul>
+                          </div>
+                          <!--/column -->
+                        </div>
+                        <!--/.row -->
+                      </div>
+                      <!--/column -->
+                      <div class="col-lg-3">
+                        <h6 class="dropdown-header">Misc Elements</h6>
+                        <ul class="list-unstyled">
+                          <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
+                          <li><a class="dropdown-item" href="icon-concept.html">Icons - Concept</a></li>
+                          <li><a class="dropdown-item" href="icon-duotone.html">Icons - Duotone</a></li>
+                          <li><a class="dropdown-item" href="icon-unicons.html">Icons - Unicons</a></li>
+                          <li><a class="dropdown-item" href="player.html">Media Player</a></li>
+                          <li><a class="dropdown-item" href="animations.html">Scroll Animations</a></li>
+                          <li><a class="dropdown-item" href="wrappers.html">Wrappers</a></li>
+                          <li><a class="dropdown-item" href="wrappers-angled.html">Wrappers - Angled</a></li>
+                        </ul>
+                      </div>
+                      <!--/column -->
+                      <div class="col-lg-3">
+                        <h6 class="dropdown-header">Typography</h6>
+                        <ul class="list-unstyled">
+                          <li><a class="dropdown-item scroll" href="typography.html#basic">Basic Typography</a></li>
+                          <li><a class="dropdown-item scroll" href="typography.html#alerts">Alerts</a></li>
+                          <li><a class="dropdown-item scroll" href="typography.html#animated-text">Animated Text</a></li>
+                          <li><a class="dropdown-item scroll" href="typography.html#blockquote">Blockquote</a></li>
+                          <li><a class="dropdown-item scroll" href="typography.html#dropcap">Dropcap</a></li>
+                          <li><a class="dropdown-item scroll" href="typography.html#lists">Lists</a></li>
+                          <li><a class="dropdown-item scroll" href="typography.html#tooltip-popover">Tooltip & Popover</a></li>
+                          <li><a class="dropdown-item scroll" href="typography.html#misc">Miscellaneous</a></li>
+                        </ul>
+                      </div>
+                      <!--/column -->
+                    </div>
+                    <!--/.row -->
+                  </li>
+                  <!--/.mega-menu-content-->
+                </ul>
+                <!--/.dropdown-menu -->
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-collapse -->
+          <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
+              <li class="nav-item d-none d-md-block">
+                <a class="btn btn-primary rounded-pill" href="https://1.envato.market/NKGrx2" target="_blank">Buy Now <span class="ps-1">$8</span></a>
+              </li>
+              <li class="nav-item d-lg-none">
+                <div class="navbar-hamburger"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-other -->
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+    </header>
+    <!-- /header -->
+    <section class="wrapper bg-gradient-primary">
+      <div class="container pt-10 pt-md-14">
+        <div class="row gx-2 gy-10 align-items-center">
+          <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="600">
+            <h1 class="display-1 mb-5 mx-md-10 mx-lg-0">Create a powerful but effortless website for <br /><span class="typer text-primary text-nowrap" data-delay="100" data-delim=":" data-words="your business.:your portfolio.:your startup.:digital marketing."></span><span class="cursor text-primary" data-owner="typer"></span></h1>
+            <p class="lead fs-23 mb-7">Build your website in minutes with the help of countless amazing features of Sandbox.</p>
+            <div class="d-flex justify-content-center justify-content-lg-start mb-4" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+              <span><a class="btn btn-lg btn-primary rounded-pill me-2 scroll" href="#demos">Check Demos</a></span>
+            </div>
+          </div>
+          <!-- /column -->
+          <div class="col-lg-6 ms-auto position-relative">
+            <div class="row g-4">
+              <div class="col-4 d-flex flex-column ms-auto" data-cues="fadeIn" data-group="col-start" data-delay="900">
+                <div class="ms-auto mt-6"><img class="img-fluid rounded shadow-lg" src="img/demos/vc1.jpg" srcset="img/demos/vc1@2x.jpg 2x" alt="" /></div>
+                <div class="ms-auto mt-4"><img class="img-fluid rounded shadow-lg" src="img/demos/vc2.jpg" srcset="img/demos/vc2@2x.jpg 2x" alt="" /></div>
+                <div class="ms-auto mt-4"><img class="img-fluid rounded shadow-lg" src="img/demos/vc3.jpg" srcset="img/demos/vc3@2x.jpg 2x" alt="" /></div>
+              </div>
+              <!-- /column -->
+              <div class="col-4" data-cues="fadeIn" data-group="col-middle">
+                <div><img class="w-100 img-fluid rounded shadow-lg" src="img/demos/vc4.jpg" srcset="img/demos/vc4@2x.jpg 2x" alt="" /></div>
+                <div><img class="w-100 img-fluid rounded shadow-lg mt-4" src="img/demos/vc5.jpg" srcset="img/demos/vc5@2x.jpg 2x" alt="" /></div>
+                <div><img class="w-100 img-fluid rounded shadow-lg mt-4" src="img/demos/vc6.jpg" srcset="img/demos/vc6@2x.jpg 2x" alt="" /></div>
+              </div>
+              <!-- /column -->
+              <div class="col-4 d-flex flex-column" data-cues="fadeIn" data-group="col-end" data-delay="900">
+                <div class="mt-8"><img class="img-fluid rounded shadow-lg" src="img/demos/vc7.jpg" srcset="img/demos/vc7@2x.jpg 2x" alt="" /></div>
+                <div class="mt-4 mb-10"><img class="img-fluid rounded shadow-lg" src="img/demos/vc8.jpg" srcset="img/demos/vc8@2x.jpg 2x" alt="" /></div>
+              </div>
+              <!-- /column -->
+            </div>
+            <!-- /.row -->
+            <div class="position-relative mt-n20 mb-20" data-cue="fadeIn" data-delay="1800">
+              <div class="btn btn-circle btn-yellow disabled ripple position-absolute counter-wrapper flex-column d-none d-md-flex" style="bottom: 0; right: -8%; width: 120px; height: 120px;">
+                <h3 class="text-white mt-n1 mb-0">60% Off</h3>
+                <p class="fs-14">Launch Price</p>
+              </div>
+            </div>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-gradient-reverse-primary" id="demos">
+      <div class="container py-14 py-md-18">
+        <div class="row mb-10">
+          <div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5 mx-auto">
+            <div class="counter-wrapper">
+              <h3 class="fs-70 mb-3 text-primary text-center counter">18</h3>
+            </div>
+            <h2 class="display-3 mb-3 text-center mb-0">Functional, impressive and rich demos to start with</h2>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+          <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto">
+            <div class="grid grid-view projects-tiles">
+              <div class="project">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-yellow rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index.html" target="_blank"> <img src="img/demos/d1-1.jpg" srcset="img/demos/d1-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout I</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-yellow row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Colorful design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Concept images</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Pricing table</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Gradient background</span></li>
+                        </ul>
+                        <a href="index.html" target="_blank" class="more hover link-yellow fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-yellow rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index.html" target="_blank"> <img src="img/demos/d1-2.jpg" srcset="img/demos/d1-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-yellow rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index.html" target="_blank"> <img src="img/demos/d1-3.jpg" srcset="img/demos/d1-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index2.html" target="_blank"> <img src="img/demos/d2-1.jpg" srcset="img/demos/d2-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout II</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-blue row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Minimalist design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Serif headings</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Solid colors</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Video lightbox</span></li>
+                        </ul>
+                        <a href="index2.html" target="_blank" class="more hover link-blue fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index2.html" target="_blank"> <img src="img/demos/d2-2.jpg" srcset="img/demos/d2-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index2.html" target="_blank"> <img src="img/demos/d2-3.jpg" srcset="img/demos/d2-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-aqua rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index3.html" target="_blank"> <img src="img/demos/d3-1.jpg" srcset="img/demos/d3-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout III</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-aqua row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Minimalist design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Angled sections</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Soft colors</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Animations</span></li>
+                        </ul>
+                        <a href="index3.html" target="_blank" class="more hover link-aqua fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-aqua rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index3.html" target="_blank"> <img src="img/demos/d3-2.jpg" srcset="img/demos/d3-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-aqua rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index3.html" target="_blank"> <img src="img/demos/d3-3.jpg" srcset="img/demos/d3-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-violet rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index4.html" target="_blank"> <img src="img/demos/d4-1.jpg" srcset="img/demos/d4-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout IV</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-violet row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Corporate design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Serif headings</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Tiled images</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Video lightbox</span></li>
+                        </ul>
+                        <a href="index4.html" target="_blank" class="more hover link-violet fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-violet rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index4.html" target="_blank"> <img src="img/demos/d4-2.jpg" srcset="img/demos/d4-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-violet rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index4.html" target="_blank"> <img src="img/demos/d4-3.jpg" srcset="img/demos/d4-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index5.html" target="_blank"> <img src="img/demos/d5-1.jpg" srcset="img/demos/d5-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout V</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-blue row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Modern design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Tiled images</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Animations</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Pricing table</span></li>
+                        </ul>
+                        <a href="index5.html" target="_blank" class="more hover link-blue fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index5.html" target="_blank"> <img src="img/demos/d5-2.jpg" srcset="img/demos/d5-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index5.html" target="_blank"> <img src="img/demos/d5-3.jpg" srcset="img/demos/d5-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-aqua rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index6.html" target="_blank"> <img src="img/demos/d6-1.jpg" srcset="img/demos/d6-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout VI</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-aqua row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Modern design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Duotone icons</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Animations</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Soft colors</span></li>
+                        </ul>
+                        <a href="index6.html" target="_blank" class="more hover link-aqua fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-aqua rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index6.html" target="_blank"> <img src="img/demos/d6-2.jpg" srcset="img/demos/d6-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-aqua rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index6.html" target="_blank"> <img src="img/demos/d6-3.jpg" srcset="img/demos/d6-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index7.html" target="_blank"> <img src="img/demos/d7-1.jpg" srcset="img/demos/d7-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout VII</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-purple row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Minimalist design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Concept images</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Soft colors</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Project display</span></li>
+                        </ul>
+                        <a href="index7.html" target="_blank" class="more hover link-purple fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index7.html" target="_blank"> <img src="img/demos/d7-2.jpg" srcset="img/demos/d7-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index7.html" target="_blank"> <img src="img/demos/d7-3.jpg" srcset="img/demos/d7-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-aqua rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index8.html" target="_blank"> <img src="img/demos/d8-1.jpg" srcset="img/demos/d8-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout VIII</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-aqua row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Modern design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Animated header</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Duotone icons</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Soft colors</span></li>
+                        </ul>
+                        <a href="index8.html" target="_blank" class="more hover link-aqua fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-aqua rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index8.html" target="_blank"> <img src="img/demos/d8-2.jpg" srcset="img/demos/d8-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-aqua rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index8.html" target="_blank"> <img src="img/demos/d8-3.jpg" srcset="img/demos/d8-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index9.html" target="_blank"> <img src="img/demos/d9-1.jpg" srcset="img/demos/d9-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout IX</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-blue row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Modern design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Duotone icons</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Serif headings</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Testimonials</span></li>
+                        </ul>
+                        <a href="index9.html" target="_blank" class="more hover link-blue fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index9.html" target="_blank"> <img src="img/demos/d9-2.jpg" srcset="img/demos/d9-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index9.html" target="_blank"> <img src="img/demos/d9-3.jpg" srcset="img/demos/d9-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-orange rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index10.html" target="_blank"> <img src="img/demos/d10-1.jpg" srcset="img/demos/d10-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout X</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-orange row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Dark section</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Animations</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Simple testimonials</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Tiled images</span></li>
+                        </ul>
+                        <a href="index10.html" target="_blank" class="more hover link-orange fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-orange rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index10.html" target="_blank"> <img src="img/demos/d10-2.jpg" srcset="img/demos/d10-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-orange rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index10.html" target="_blank"> <img src="img/demos/d10-3.jpg" srcset="img/demos/d10-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index11.html" target="_blank"> <img src="img/demos/d11-1.jpg" srcset="img/demos/d11-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout XI</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-purple row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Image slider</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Animated header</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Tiled images</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Soft colors</span></li>
+                        </ul>
+                        <a href="index11.html" target="_blank" class="more hover link-purple fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index11.html" target="_blank"> <img src="img/demos/d11-2.jpg" srcset="img/demos/d11-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index11.html" target="_blank"> <img src="img/demos/d11-3.jpg" srcset="img/demos/d11-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-orange rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index12.html" target="_blank"> <img src="img/demos/d12-1.jpg" srcset="img/demos/d12-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout XII</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-orange row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Extended menu</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Duotone icons</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Masonry portfolio</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Soft colors</span></li>
+                        </ul>
+                        <a href="index12.html" target="_blank" class="more hover link-orange fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-orange rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index12.html" target="_blank"> <img src="img/demos/d12-2.jpg" srcset="img/demos/d12-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-orange rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index12.html" target="_blank"> <img src="img/demos/d12-3.jpg" srcset="img/demos/d12-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index13.html" target="_blank"> <img src="img/demos/d13-1.jpg" srcset="img/demos/d13-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout XIII</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-purple row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Video lightbox</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Animations</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Parallax testimonials</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Angled sections</span></li>
+                        </ul>
+                        <a href="index13.html" target="_blank" class="more hover link-purple fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index13.html" target="_blank"> <img src="img/demos/d13-2.jpg" srcset="img/demos/d13-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index13.html" target="_blank"> <img src="img/demos/d13-3.jpg" srcset="img/demos/d13-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-violet rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index14.html" target="_blank"> <img src="img/demos/d14-1.jpg" srcset="img/demos/d14-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout XIV</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-violet row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Colorful design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Image section</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Background shapes</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Detailed footer</span></li>
+                        </ul>
+                        <a href="index14.html" target="_blank" class="more hover link-violet fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-violet rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index14.html" target="_blank"> <img src="img/demos/d14-2.jpg" srcset="img/demos/d14-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-violet rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index14.html" target="_blank"> <img src="img/demos/d14-3.jpg" srcset="img/demos/d14-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index15.html" target="_blank"> <img src="img/demos/d15-1.jpg" srcset="img/demos/d15-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout XV</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-blue row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Touch-enabled slider</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Video lightbox</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Background shapes</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Newsletter</span></li>
+                        </ul>
+                        <a href="index15.html" target="_blank" class="more hover link-blue fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index15.html" target="_blank"> <img src="img/demos/d15-2.jpg" srcset="img/demos/d15-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-blue rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index15.html" target="_blank"> <img src="img/demos/d15-3.jpg" srcset="img/demos/d15-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-pink rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index16.html" target="_blank"> <img src="img/demos/d16-1.jpg" srcset="img/demos/d16-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout XVI</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-pink row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Colorful design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Shape mask</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Detailed portfolio</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Contact form</span></li>
+                        </ul>
+                        <a href="index16.html" target="_blank" class="more hover link-pink fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-pink rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index16.html" target="_blank"> <img src="img/demos/d16-2.jpg" srcset="img/demos/d16-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-pink rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index16.html" target="_blank"> <img src="img/demos/d16-3.jpg" srcset="img/demos/d16-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-navy rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index17.html" target="_blank"> <img src="img/demos/d17-1.jpg" srcset="img/demos/d17-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout XVII</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-navy row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Minimalist design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Soft colors</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Animated header</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Content in box</span></li>
+                        </ul>
+                        <a href="index17.html" target="_blank" class="more hover link-navy fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-navy rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index17.html" target="_blank"> <img src="img/demos/d17-2.jpg" srcset="img/demos/d17-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-navy rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index17.html" target="_blank"> <img src="img/demos/d17-3.jpg" srcset="img/demos/d17-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+              <div class="project mt-10 mt-md-15 mt-lg-20">
+                <div class="row gy-md-8 g-lg-8 g-xl-11 isotope" data-cues="fadeIn">
+                  <div class="item col-lg-6">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index18.html" target="_blank"> <img src="img/demos/d18-1.jpg" srcset="img/demos/d18-1@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-md-block">
+                    <div class="project-details p-0 pt-lg-10">
+                      <div class="post-header">
+                        <h2 class="post-title fs-30 mb-4">Demo Layout XVIII</h2>
+                      </div>
+                      <!-- /.post-header -->
+                      <div class="post-content">
+                        <ul class="icon-list bullet-bg bullet-soft-purple row ms-0 gy-2">
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Modern design</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Animation header</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Animations</span></li>
+                          <li class="col-md-6"><span><i class="uil uil-check"></i></span><span>Filterable portfolio</span></li>
+                        </ul>
+                        <a href="index18.html" target="_blank" class="more hover link-purple fs-18">See Demo</a>
+                      </div>
+                      <!-- /.post-content -->
+                    </div>
+                    <!-- /.project-details -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index18.html" target="_blank"> <img src="img/demos/d18-2.jpg" srcset="img/demos/d18-2@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                  <div class="item col-lg-6 d-none d-lg-block">
+                    <figure class="itooltip itooltip-purple rounded shadow-lg" title='<h5 class="mb-0">Click for the demo</h5>'><a href="index18.html" target="_blank"> <img src="img/demos/d18-3.jpg" srcset="img/demos/d18-3@2x.jpg 2x" alt="" /></a></figure>
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.project -->
+            </div>
+            <!-- /.projects-tiles -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="mb-12"></div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-light angled upper-start">
+      <div class="container pt-13 pt-md-16 pb-14 pb-md-17">
+        <div class="row mt-n3 mb-8 text-center">
+          <div class="col-md-11 col-lg-10 col-xl-8 col-xxl-7 mx-auto">
+            <img src="img/demos/icon.png" srcset="img/demos/icon@2x.png 2x" alt="" />
+            <h2 class="display-3 mt-3 mb-3 mb-0 px-lg-10 px-xl-0">Save your time and money by choosing Sandbox for your website.</h2>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="row mb-16">
+          <div class="col-xl-8 col-xxl-7 mx-auto">
+            <div class="row align-items-center counter-wrapper gy-6 text-center">
+              <div class="col-md-4">
+                <h3 class="counter fs-50 text-primary mb-1">200+</h3>
+                <p class="fs-18 mb-0">UI elements</p>
+              </div>
+              <!--/column -->
+              <div class="col-md-4">
+                <h3 class="counter fs-50 text-primary mb-1">70+</h3>
+                <p class="fs-18 mb-0">Pre-made blocks</p>
+              </div>
+              <!--/column -->
+              <div class="col-md-4">
+                <h3 class="counter fs-50 text-primary mb-1">80+</h3>
+                <p class="fs-18 mb-0">Neatly coded pages</p>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="row gx-lg-8 gx-xl-0 gy-10 align-items-center mb-14 mb-md-16">
+          <div class="col-lg-6 position-relative">
+            <div class="shape rounded bg-soft-primary rellax d-block" data-rellax-speed="0" style="top: 50%; left: 50%; width: 50%; height: 60%; transform: translate(-50%,-50%);z-index:0"></div>
+            <div class="row gx-md-5 gy-5 position-relative">
+              <div class="col-6">
+                <img class="img-fluid rounded shadow-lg mb-5" data-cue="fadeIn" data-delay="300" src="img/demos/fe1.jpg" srcset="img/demos/fe1@2x.jpg 2x" alt="" />
+                <img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" data-cue="fadeIn" data-delay="600" src="img/demos/fe2.jpg" srcset="img/demos/fe2@2x.jpg 2x" alt="" />
+              </div>
+              <!-- /column -->
+              <div class="col-6">
+                <img class="img-fluid rounded shadow-lg my-5" data-cue="fadeIn" data-delay="900" src="img/demos/fe3.jpg" srcset="img/demos/fe3@2x.jpg 2x" alt="" />
+                <img class="img-fluid rounded shadow-lg d-flex col-10" data-cue="fadeIn" data-delay="1200" src="img/demos/fe4.jpg" srcset="img/demos/fe4@2x.jpg 2x" alt="" />
+              </div>
+              <!-- /column -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!--/column -->
+          <div class="col-lg-6 col-xl-5 col-xxl-4 offset-xl-1" data-cues="slideInRight" data-delay="1500" data-group="features-1">
+            <div class="d-flex flex-row mb-7">
+              <div>
+                <div class="icon btn btn-circle disabled btn-soft-primary mt-1 me-4"> <i class="uil uil-images"></i> </div>
+              </div>
+              <div>
+                <h4 class="mb-1">Modern Portfolio Layouts</h4>
+                <p class="mb-0">Build and manage an eye-catching and impressive portfolio fast and without effort.</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row mb-7">
+              <div>
+                <div class="icon btn btn-circle disabled btn-soft-primary mt-1 me-4"> <i class="uil uil-calendar-alt"></i> </div>
+              </div>
+              <div>
+                <h4 class="mb-1">Useful Blog Layouts</h4>
+                <p class="mb-0">Create an attractive and stunning journal to tell the world your wonderful stories.</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div>
+                <div class="icon btn btn-circle disabled btn-soft-primary mt-1 me-4"> <i class="uil uil-star"></i> </div>
+              </div>
+              <div>
+                <h4 class="mb-1">Cool Features & Elements</h4>
+                <p class="mb-0">Sandbox includes amazing features and elements to create rich and attractive pages.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="row gx-lg-8 gx-xl-0 gy-10 align-items-center mb-16 mb-md-22">
+          <div class="col-lg-6 offset-xl-1 position-relative order-lg-2">
+            <div class="shape rounded bg-soft-primary rellax d-block" data-rellax-speed="0" style="top: 50%; left: 50%; width: 50%; height: 60%; transform: translate(-50%,-50%);z-index:0"></div>
+            <div class="row gx-md-5 gy-5 position-relative">
+              <div class="col-5">
+                <img class="img-fluid rounded shadow-lg my-5 d-flex ms-auto" data-cue="fadeIn" data-delay="300" src="img/demos/fe5.jpg" srcset="img/demos/fe5@2x.jpg 2x" alt="" />
+                <img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" data-cue="fadeIn" data-delay="600" src="img/demos/fe6.jpg" srcset="img/demos/fe6@2x.jpg 2x" alt="" />
+              </div>
+              <!-- /column -->
+              <div class="col-7">
+                <img class="img-fluid rounded shadow-lg mb-5" data-cue="fadeIn" data-delay="900" src="img/demos/fe7.jpg" srcset="img/demos/fe7@2x.jpg 2x" alt="" />
+                <img class="img-fluid rounded shadow-lg d-flex col-11" data-cue="fadeIn" data-delay="1200" src="img/demos/fe8.jpg" srcset="img/demos/fe8@2x.jpg 2x" alt="" />
+              </div>
+              <!-- /column -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!--/column -->
+          <div class="col-lg-6 col-xl-5 col-xxl-4 offset-xxl-1" data-cues="slideInLeft" data-delay="1500" data-group="features-2">
+            <div class="d-flex flex-row mb-7">
+              <div>
+                <div class="icon btn btn-circle disabled btn-soft-primary mt-1 me-4"> <i class="uil uil-web-grid-alt"></i> </div>
+              </div>
+              <div>
+                <h4 class="mb-1">13 Headers & 5 Footers</h4>
+                <p class="mb-0">Choose from various gorgeous header and footer styles to serve you best for your needs.</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row mb-7">
+              <div>
+                <div class="icon btn btn-circle disabled btn-soft-primary mt-1 me-4"> <i class="uil uil-palette"></i> </div>
+              </div>
+              <div>
+                <h4 class="mb-1">Color & Font Options</h4>
+                <p class="mb-0">You can either use the included color and fonts or easily add your own choices.</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div>
+                <div class="icon btn btn-circle disabled btn-soft-primary mt-1 me-4"> <i class="uil uil-tablet"></i> </div>
+              </div>
+              <div>
+                <h4 class="mb-1">Fully Responsive Layout</h4>
+                <p class="mb-0">Sandbox adapts to different screen sizes therefore it is compatible with any device.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-gradient-primary">
+      <div class="container pb-17 pb-md-20">
+        <div class="row gx-0 mb-14 mb-md-16">
+          <div class="col-9 col-sm-10 col-lg-9 mx-auto mt-n15 mt-md-n21" data-cues data-group="images">
+            <img class="img-fluid mx-auto rounded shadow-lg" data-cue="fadeIn" src="img/demos/de1.jpg" srcset="img/demos/de1@2x.jpg 2x" alt="" />
+            <img class="position-absolute rounded shadow-lg" data-cue="slideInRight" src="img/demos/de2.jpg" srcset="img/demos/de2@2x.jpg 2x" style="top: 25%; right:-12%; max-width:30%; height: auto;" alt="" />
+            <img class="position-absolute rounded shadow-lg" data-cue="slideInLeft" src="img/demos/de3.jpg" srcset="img/demos/de3@2x.jpg 2x" style="top: 15%; left:-15%; max-width:30%; height: auto;" alt="" />
+            <img class="position-absolute rounded shadow-lg" data-cue="slideInLeft" src="img/demos/de4.jpg" srcset="img/demos/de4@2x.jpg 2x" style="bottom: 15%; left:-13%; max-width:30%; height: auto;" alt="" />
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5 gx-md-8 gy-10 text-center justify-content-center" data-cues="slideInDown" data-group="features-3">
+          <div class="col">
+            <img class="mb-4" src="img/demos/fi1.png" srcset="img/demos/fi1@2x.png 2x" alt="" />
+            <h4>Built with Sass <br> & Bootstrap 5</h4>
+          </div>
+          <!--/column -->
+          <div class="col">
+            <img class="mb-4" src="img/demos/fi2.png" srcset="img/demos/fi2@2x.png 2x" alt="" />
+            <h4>SEO-friendly <br> Coding</h4>
+          </div>
+          <!--/column -->
+          <div class="col">
+            <img class="mb-4" src="img/demos/fi3.png" srcset="img/demos/fi3@2x.png 2x" alt="" />
+            <h4>Valid W3C <br> HTML5 & CSS3</h4>
+          </div>
+          <!--/column -->
+          <div class="col">
+            <img class="mb-4" src="img/demos/fi4.png" srcset="img/demos/fi4@2x.png 2x" alt="" />
+            <h4>Retina-ready <br> Graphics</h4>
+          </div>
+          <!--/column -->
+          <div class="col">
+            <img class="mb-4" src="img/demos/fi5.png" srcset="img/demos/fi5@2x.png 2x" alt="" />
+            <h4>One-page <br> Layout Option</h4>
+          </div>
+          <!--/column -->
+          <div class="col">
+            <img class="mb-4" src="img/demos/fi6.png" srcset="img/demos/fi6@2x.png 2x" alt="" />
+            <h4>Isotope <br> Filterable Gallery</h4>
+          </div>
+          <!--/column -->
+          <div class="col">
+            <img class="mb-4" src="img/demos/fi7.png" srcset="img/demos/fi7@2x.png 2x" alt="" />
+            <h4>Mailchimp <br> Compatible </h4>
+          </div>
+          <!--/column -->
+          <div class="col">
+            <img class="mb-4" src="img/demos/fi8.png" srcset="img/demos/fi8@2x.png 2x" alt="" />
+            <h4>Contact Form <br> w/o Page Refresh</h4>
+          </div>
+          <!--/column -->
+          <div class="col">
+            <img class="mb-4" src="img/demos/fi9.png" srcset="img/demos/fi9@2x.png 2x" alt="" />
+            <h4>Animations <br> on Page Scroll</h4>
+          </div>
+          <!--/column -->
+          <div class="col">
+            <img class="mb-4" src="img/demos/fi10.png" srcset="img/demos/fi10@2x.png 2x" alt="" />
+            <h4>Top-Notch Support <br> & Free Updates</h4>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-gradient-reverse-primary">
+      <div class="container pb-14 pb-md-18">
+        <div class="row mb-8 text-center">
+          <div class="col-lg-8 col-xl-7 mx-auto">
+            <h2 class="fs-15 ls-xl text-uppercase text-primary">Inner Pages</h2>
+            <h2 class="display-3 mt-3 mb-3 mb-0">Handcrafted and carefully put together pages to choose from.</h2>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="grid grid-view projects-masonry">
+          <div class="isotope-filter filter mb-10 text-start text-md-center">
+            <p>Filter:</p>
+            <ul>
+              <li><a class="filter-item active" data-filter="*">All</a></li>
+              <li><a class="filter-item" data-filter=".services">Services</a></li>
+              <li><a class="filter-item" data-filter=".about">About</a></li>
+              <li><a class="filter-item" data-filter=".contact">Contact</a></li>
+              <li><a class="filter-item" data-filter=".pricing">Pricing</a></li>
+              <li><a class="filter-item" data-filter=".projects">Projects</a></li>
+            </ul>
+          </div>
+          <div data-cue="fadeIn">
+            <div class="row gx-md-8 gx-xl-9 gy-8 gy-xl-9 isotope">
+              <div class="project item col-md-6 col-xl-4 services">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">Services Modern</h5>'><a href="services.html"> <img src="img/demos/dc1.jpg" srcset="img/demos/dc1@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+              <div class="project item col-md-6 col-xl-4 services">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">Services Concept</h5>'><a href="services2.html"> <img src="img/demos/dc2.jpg" srcset="img/demos/dc2@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+              <div class="project item col-md-6 col-xl-4 about">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">About Modern</h5>'><a href="about.html"> <img src="img/demos/dc3.jpg" srcset="img/demos/dc3@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+              <div class="project item col-md-6 col-xl-4 contact">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">Contact with Facts</h5>'><a href="contact.html"> <img src="img/demos/dc5.jpg" srcset="img/demos/dc5@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+              <div class="project item col-md-6 col-xl-4 about">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">About Concept</h5>'><a href="about2.html"> <img src="img/demos/dc4.jpg" srcset="img/demos/dc4@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+              <div class="project item col-md-6 col-xl-4 contact">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">Contact Minimalist</h5>'><a href="contact2.html"> <img src="img/demos/dc6.jpg" srcset="img/demos/dc6@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+              <div class="project item col-md-6 col-xl-4 contact">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">Contact Modern</h5>'><a href="contact3.html"> <img src="img/demos/dc7.jpg" srcset="img/demos/dc7@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+              <div class="project item col-md-6 col-xl-4 pricing">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">Pricing</h5>'><a href="pricing.html"> <img src="img/demos/dc8.jpg" srcset="img/demos/dc8@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+              <div class="project item col-md-6 col-xl-4 projects">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">Projects with Tiles</h5>'><a href="projects.html"> <img src="img/demos/dc9.jpg" srcset="img/demos/dc9@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+              <div class="project item col-md-6 col-xl-4 projects">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">Projects Masonry</h5>'><a href="projects4.html"> <img src="img/demos/dc12.jpg" srcset="img/demos/dc12@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+              <div class="project item col-md-6 col-xl-4 projects">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">Projects Masonry Large</h5>'><a href="projects3.html"> <img src="img/demos/dc11.jpg" srcset="img/demos/dc11@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+              <div class="project item col-md-6 col-xl-4 projects">
+                <figure class="itooltip itooltip-primary rounded shadow-lg" title='<h5 class="mb-0">Projects Overflow</h5>'><a href="projects2.html"> <img src="img/demos/dc10.jpg" srcset="img/demos/dc10@2x.jpg 2x" alt="" /></a></figure>
+              </div>
+              <!-- /.project -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /div -->
+        </div>
+        <!-- /.grid -->
+        <div class="mb-12"></div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-light angled upper-start">
+      <div class="container pt-lg-20 pb-18 pb-xxl-20 position-relative">
+        <img class="position-lg-absolute col-12 col-lg-12 mt-xxl-n3 mb-3 mb-md-10 mb-lg-0" src="img/demos/devices.png" srcset="img/demos/devices@2x.png 2x" data-cue="fadeIn" alt="" style="top: 0; left: -23%;" />
+        <div class="row gx-lg-8 gx-xl-12 mt-lg-n16 mt-xl-n12 mt-xxl-0 align-items-xxl-center">
+          <div class="col-md-10 offset-md-1 col-lg-6 offset-lg-6 text-center text-lg-start">
+            <div class="ps-xl-1 ps-xxl-5 pe-xxl-10">
+              <h2 class="fs-15 ls-xl text-uppercase text-primary mb-3">Fully Responsive</h2>
+              <h3 class="display-3 mb-5">Responsive images & texts no matter the screen size.</h3>
+              <p class="lead mb-8">Sandbox is responsive so the layout will adapt to different screen sizes that will make your website compatible with any device such as smart phones, tablets and computers.</p>
+              <img src="img/demos/qrcode.jpg" srcset="img/demos/qrcode@2x.jpg 2x" class="shadow-lg rounded" alt="" />
+            </div>
+            <!--/div -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-gradient-reverse-primary">
+      <div class="container pt-xl-10 text-center">
+        <div class="row">
+          <div class="col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+            <img src="img/demos/icon.png" srcset="img/demos/icon@2x.png 2x" alt="" />
+            <h2 class="display-3 mt-3 mb-3 px-lg-8">Think unique and be creative. Make a difference with Sandbox.</h2>
+            <p class="lead fs-lg mb-6">Everything you need to create your next unique and professional website, including impressive and ready-made blocks and pages.</p>
+            <a href="https://1.envato.market/NKGrx2" target="_blank" class="btn btn-lg btn-primary rounded-pill mb-10">Buy Sandbox</a>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <img class="img-fluid" src="img/demos/f1.png" srcset="img/demos/f1@2x.png 2x" data-cue="fadeIn" alt="" />
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+  </div>
+  <!-- /.content-wrapper -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/theme.js"></script>
+</body>
+
+</html>
