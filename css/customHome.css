@@ -11,8 +11,7 @@ body {
 }
 
 .right-angle-container {
-    /* clip-path: polygon(0 0, 100% 17%, 100% 100%, 0% 100%); */
-    clip-path: polygon(68% 15%, 100% 0, 100% 100%, 0 100%, 0 10%);
+    clip-path: polygon(0 0, 100% 9%, 100% 100%, 0% 100%);
 }
 
 .left-angle-container {
@@ -45,6 +44,7 @@ body {
 
 .custom-card-container:hover {
     transition: 0.5s;
+    box-shadow: 1px 1px 3px rgb(80, 80, 80);
 }
 
 @media (max-width:500px) {
