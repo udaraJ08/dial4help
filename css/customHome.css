@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: linear-gradient(to right bottom, #ddffff, #ddfcff, #e6f6ff, #f3f1ff, #ffebfe);
     background-attachment: fixed;
@@ -45,6 +49,18 @@ body {
 .custom-card-container:hover {
     transition: 0.5s;
     box-shadow: 1px 1px 3px rgb(80, 80, 80);
+}
+
+.box-pulse {
+    animation: pulse 5s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
+}
+
+.box-bounce {
+    animation: bounce 2s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
+}
+
+.main-btn-anim {
+    animation: headShake 5s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
 }
 
 @media (max-width:500px) {
