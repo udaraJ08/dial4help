@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(to right bottom, #ddffff, #ddfcff, #e6f6ff, #f3f1ff, #ffebfe);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-img {
+    background-image: url("../img/customImg/darkgreen_and_black_geometry_abstrack-1920x1080.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.right-angle-container {
+    /* clip-path: polygon(0 0, 100% 17%, 100% 100%, 0% 100%); */
+    clip-path: polygon(68% 15%, 100% 0, 100% 100%, 0 100%, 0 10%);
+}
+
+.left-angle-container {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+}
+
+.green-gradiant {
+    background-image: linear-gradient(to right bottom, #1a5847, #00535f, #004a7d, #003888, #56006e);
+}
+
+.choose-dfh {
+    display: flex;
+}
+
+.custom-card-container {
+    transition: 0.3s;
+}
+
+.left-deg:hover {
+    transform: rotate(-3deg);
+    background-color: #fdcb6e;
+    color: rgb(83, 83, 83);
+}
+
+.right-deg:hover {
+    transform: rotate(3deg);
+    background-color: #ff6b81;
+    color: rgb(42, 40, 68);
+}
+
+.custom-card-container:hover {
+    transition: 0.5s;
+}
+
+@media (max-width:500px) {
+    .left-angle-container {
+        clip-path: none
+    }
+    .right-angle-container {
+        clip-path: none;
+    }
+    .choose-dfh {
+        display: none;
+    }
+}
