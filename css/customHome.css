@@ -8,8 +8,13 @@ body {
     background-size: cover;
 }
 
+.hero-banner {
+    font-size: 100px;
+}
+
 .container-img {
-    background-image: url("../img/customImg/darkgreen_and_black_geometry_abstrack-1920x1080.jpg");
+    /* background-image: url("../img/customImg/darkgreen_and_black_geometry_abstrack-1920x1080.jpg"); */
+    background-image: url("https://wallpaperaccess.com/full/6218768.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -23,7 +28,7 @@ body {
 }
 
 .green-gradiant {
-    background-image: linear-gradient(to right bottom, #1a5847, #00535f, #004a7d, #003888, #56006e);
+    background-image: linear-gradient(to right top, #00265f, #052265, #131d6a, #21156e, #300570);
 }
 
 .choose-dfh {
@@ -72,5 +77,8 @@ body {
     }
     .choose-dfh {
         display: none;
+    }
+    .hero-banner {
+        font-size: 50px;
     }
 }
