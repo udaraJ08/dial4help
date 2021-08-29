@@ -3,10 +3,18 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to right bottom, #ddffff, #ddfcff, #e6f6ff, #f3f1ff, #ffebfe);
+    background-image: linear-gradient(to right bottom, #20252c, #1a2436, #1a213f, #201c46, #2d1449);
     background-attachment: fixed;
     background-size: cover;
 }
+
+/* LOGO STYLING */
+
+.logo-designing {
+    width: 70%;
+}
+
+/* ************ */
 
 .hero-banner {
     font-size: 100px;
@@ -14,7 +22,7 @@ body {
 
 .container-img {
     /* background-image: url("../img/customImg/darkgreen_and_black_geometry_abstrack-1920x1080.jpg"); */
-    background-image: url("https://wallpaperaccess.com/full/6218768.jpg");
+    background-image: url("../img/customImg/space.webp");
     background-attachment: fixed;
     background-size: cover;
 }
