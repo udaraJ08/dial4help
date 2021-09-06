@@ -93,4 +93,7 @@ a {
     .hero-banner {
         font-size: 50px;
     }
+    .text-small-center {
+        text-align: center;
+    }
 }
