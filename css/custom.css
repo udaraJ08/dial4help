@@ -8,10 +8,14 @@ body {
     background-size: cover;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* LOGO STYLING */
 
 .logo-designing {
-    width: 70%;
+    width: 50%;
     margin: 10px;
 }
 
@@ -23,7 +27,6 @@ body {
 
 .container-img {
     /* background-image: url("../img/customImg/darkgreen_and_black_geometry_abstrack-1920x1080.jpg"); */
-    background-image: url("../img/customImg/space.webp");
     background-attachment: fixed;
     background-size: cover;
 }

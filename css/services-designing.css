@@ -1,0 +1,9 @@
+body {
+    background-image: linear-gradient(to right bottom, #ead4ff, #d8e2ff, #cdeeff, #cff8ff, #dbffff);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-header-designing {
+    background-image: url("../img/customImg/services-design-hero-header.jpg");
+}
