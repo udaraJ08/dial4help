@@ -40,7 +40,8 @@ a {
 }
 
 .green-gradiant {
-    background-image: linear-gradient(to right top, #00265f, #052265, #131d6a, #21156e, #300570);
+    /* background-image: linear-gradient(to right top, #00265f, #052265, #131d6a, #21156e, #300570); */
+    background-image: linear-gradient(to right top, #1733a2, #003d9c, #004492, #004987, #0e4c7a);
 }
 
 .choose-dfh {
