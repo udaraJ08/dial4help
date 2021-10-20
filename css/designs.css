@@ -1,0 +1,47 @@
+.oilPaintsCard {
+    background-image: url("https://i.pinimg.com/originals/c2/d9/47/c2d9473ba917e9b2fc664cab7f299ce2.jpg");
+    background-size: cover;
+}
+
+.hndCraftCard {
+    background-image: url("https://wallpaperaccess.com/full/1438516.png");
+    background-size: cover;
+    background-blend-mode: luminosity;
+}
+
+.gfxDesigningCard {
+    background-image: url("https://img2.goodfon.com/wallpaper/nbig/6/19/android-5-0-lollipop-material-3638.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.clothingCard {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/586/231/688/minimalism-batman-illustration-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: luminosity;
+    text-align: left;
+}
+
+/* contains stylings for smart rooms */
+
+.cardDesignCard {
+    background-image: url("https://www.wepc.com/wp-content/uploads/2021/03/346969.5e1ddb1f93f71c4d70df9b504677a137.1600.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-blend-mode: luminosity;
+}
+
+.videoEditingCard {
+    background-image: url("https://mocah.org/uploads/posts/4510094-fkyhdino-landscape-artwork-mountains-illustration-digital-art-forest-bridge-trees-flag-blue-minimalism-pine-trees-valley-nature-horizon-snowy-peak-clear-sky-blue-background-flatdesign-graphic-de.png");
+    background-position: bottom;
+    background-size: cover;
+    color: rgb(180, 172, 172);
+}
+
+@media (max-width:500px) {
+    .videoEditingCard {
+        background-image: url("https://cutewallpaper.org/21/line-friends-wallpaper-desktop/30-Beautifully-Minimal-Desktop-Wallpapers.jpg");
+        color: rgb(44, 44, 44);
+    }
+}

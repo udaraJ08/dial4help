@@ -26,7 +26,6 @@ a {
 }
 
 .container-img {
-    /* background-image: url("../img/customImg/darkgreen_and_black_geometry_abstrack-1920x1080.jpg"); */
     background-attachment: fixed;
     background-size: cover;
 }
@@ -96,5 +95,8 @@ a {
     }
     .text-small-center {
         text-align: center;
+    }
+    .logo-designing {
+        width: 70%;
     }
 }
